@@ -1,2 +1,0 @@
-# oec
-Oneevilcoin pool frontend
