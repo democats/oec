@@ -1,10 +1,10 @@
-var api = "http://pool-api.democats.org:7623";
+var api = "http://pool.democats.org:7623";
 
-var poolHost = "pool-api.democats.org";
+var poolHost = "pool.democats.org";
 
 var irc = "irc.freenode.net/#democats";
 
-var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR"];
+var cryptonatorWidget = [];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
