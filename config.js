@@ -4,7 +4,7 @@ var poolHost = "pool.democats.org";
 
 var irc = "irc.freenode.net/#democats";
 
-var cryptonatorWidget = [];
+var cryptonatorWidget = ["{symbol}-BTC"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
