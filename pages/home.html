@@ -310,6 +310,8 @@
             }
             if (xhrGetPayments) xhrGetPayments.abort();
         },
+        init: function(){
+        },
         update: function(){
 
             $('#networkLastBlockFound').timeago('update', new Date(lastStats.network.timestamp * 1000).toISOString());
@@ -376,16 +378,6 @@
             amount = amount / units[i][0];
         }
         return formatAmounts(amount,  units[units.length - 1][1]);
-    }
-
-    function getReadableHashRateString(hashrate){
-        var i = 0;
-        var byteUnits = [' H', ' KH', ' MH', ' GH', ' TH', ' PH' ];
-        while (hashrate > 1024){
-            hashrate = hashrate / 1024;
-            i++;
-        }
-        return hashrate.toFixed(2) + byteUnits[i];
     }
 
 
